@@ -1,12 +1,192 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>فروشگاه عجایب</title>
+    <!--  StyleSheet  -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- fav-icon -->
+    <link rel="shortcut icon" href="images/fav-icon.png">
+    <!--  using-FontAwessome-For-Icon  -->
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 <body>
-    
+    <!--  navigation  -->
+    <nav>
+        <!-- social-link-and-phone-number -->
+        <div class="social-call">
+            <!-- social-links -->
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <!-- phone-number -->
+            <div class="phone">
+                <span>تماس : 989019425016+</span>
+            </div>
+        </div>
+        <!-- menu-bar----------------------------- -->
+        <div class="navigation">
+            <!-- logo -->
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo" title="لوگو">
+            </a>
+            <!-- menu-icon -->
+            <div class="toggle"></div>
+            <!-- menu -->
+            <ul class="menu">
+                <li><a href="#">خانه</a></li>
+                <li><a href="#">محصولات</a>
+                    <!-- sale-lable -->
+                    <span class="sale-lable">جدید</span>
+                </li>
+                <li><a href="#">بلاگ</a></li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">تماس با ما</a></li>
+            </ul>
+            <!-- left-menu---- -->
+            <div class="left-menu">
+                <!-- search -->
+                <a href="javascript:void(0);" class="search">
+                    <li class="fas fa-search"></li>
+                </a>
+                <!-- user -->
+                <a href="javascript:void(0);" class="user" title="ورود | ثبت نام">
+                    <li class="fas fa-user"></li>
+                </a>
+                <!-- cart-icon -->
+                <a href="#">
+                    <li class="fas fa-shopping-cart">
+                        <span class="mum-cart-product">0</span>
+                    </li>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- search-bar -->
+    <div class="search-bar">
+        <!-- search-input -->
+        <div class="search-input">
+            <!-- input -->
+            <input type="text" placeholder="محصول مورد نظرتو سرچ کن">
+            <!-- cancel-btn -->
+            <a href="javascript:void(0);" class="search-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- login-and-sign-up-form---------------------- -->
+    <div class="form">
+        <!-- login------------- -->
+        <div class="login-form">
+            <!-- cancel-btn------------------- -->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <!-- heading -->
+            <strong>وارد شوید</strong>
+            <!-- inputs -->
+            <form>
+                <input type="email" placeholder="ایمیل" name="email" required>
+                <input type="password" placeholder="پسورد" name="password" required>
+                <!-- submit-btn -->
+                <input type="submit" value="وارد شوید">
+            </form>
+            <!-- forget-and-sign-up-btn--- -->
+            <div class="form-btns">
+                <a href="#" class="forget">رمز عبور خود را فراموش کرده اید؟</a>
+                <a href="javascript:void(0);" class="ign-up-btn">ثبت نام کنید</a>
+            </div>
+        </div>
+
+        <!-- Sign-Up------------- -->
+        <div class="sign-up-form">
+            <!-- cancel-btn------------------- -->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <!-- heading -->
+            <strong>ثبت نام کنید</strong>
+            <!-- inputs -->
+            <form>
+                <input type="text" placeholder="نام و نام خانوادگی" name="fullname" required>
+                <input type="email" placeholder="ایمیل" name="email" required>
+                <input type="password" placeholder="پسورد" name="password" required>
+                <!-- submit-btn -->
+                <input type="submit" value="ثبت نام">
+            </form>
+            <!-- forget-and-sign-up-btn--- -->
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="already-acount">اگر قبلا ثبت نام کرده اید وارد شوید؟</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider -->
+    <section class="slider">
+        <div class="slider-item">
+            <div class="item active">
+                <div class="img" style="background-image: url('images/slider1.jpg');">
+                </div>
+                <div class="caption">
+                    <h1>از اینجا دست خالی بیرون نمیری</h1>
+                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img" style="background-image: url('images/slider2.jpg');">
+                </div>
+                <div class="caption">
+                    <h1>از اینجا دست خالی بیرون نمیری</h1>
+                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="img" style="background-image: url('images/slider3.jpg');">
+                </div>
+                <div class="caption">
+                    <h1>از اینجا دست خالی بیرون نمیری</h1>
+                    <p>اینجا همه چیز هست و تو نمیتونی دست خالی بیرون بری.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="next"><i class="fas fa-chevron-right"></i></div>
+            <div class="prev"><i class="fas fa-chevron-left"></i></div>
+        </div>
+
+
+        <div class="progress"></div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/all.min.js"></script>
 </body>
 </html>
